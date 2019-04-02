@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-  veggies.map!{ |veggies| veggies.capitalize + "!" }
+  veggies.map{ |veggies| veggies.capitalize + "!" }
 end
 
 def long_planeteer_calls(calls_long)
